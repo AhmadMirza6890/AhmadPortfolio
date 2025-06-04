@@ -558,7 +558,7 @@ span{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
-};
+}
 @media(max-width:991px){
     header{
         padding: 2rem 3%;
@@ -639,6 +639,50 @@ span{
     .services h2{
         margin-bottom: 3rem;
     }
+    @media(max-width: 600px) {
+    html {
+        font-size: 50%;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    .home-content h3 {
+        font-size: 2rem;
+    }
+    .home-content p {
+        font-size: 1.4rem;
+    }
+    .home-img img {
+        width: 70vw;
+    }
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 2rem;
+    }
+    .service-info h4 {
+        font-size: 2rem;
+    }
+    .timeline-content {
+        padding: 2rem 3rem;
+    }
+    .text-animation {
+        font-size: 2.4rem;
+    }
+}
+@media(max-width: 600px) {
+    .home-img img,
+    .btn,
+    .test-items,
+    .timeline-dot {
+        box-shadow: none;
+    }
+}
+.social-icons a,
+.footer .social a {
+    min-width: 48px;
+    min-height: 48px;
+}
+
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }
